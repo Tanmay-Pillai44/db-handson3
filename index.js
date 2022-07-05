@@ -15,16 +15,16 @@ mongoose.connect(connectionString, (err, db) => {
     console.log("Connected to Database")
 })
 
-// insertManyWithMongoose();
+insertManyWithMongoose();
 
-// findAllWithMongoose();
+findAllWithMongoose();
 
-// findWithSalary();
+findWithSalary();
 
-// findWithExp();
+findWithExp();
 
-// findWithTwoConditions();
+findWithTwoConditions();
 
-// updateWithSalary();
+updateWithSalary();
 
-// deleteWithLastCompany();
+deleteWithLastCompany();
